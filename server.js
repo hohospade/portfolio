@@ -7,7 +7,7 @@ const PORT = process.env.PORT||5000;
 require('dotenv').config();
 const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-// sgMail.setApiKey("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");
+
 //const bootstrap = require('bootstrap');
 //const jquery = require('jquery');
 //env file to mask the api key. do npm install dotenv.
